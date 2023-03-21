@@ -6,7 +6,7 @@ import Social from './Social';
 function Header() {
     const [bg,setBg]=useState(false);
     useEffect(()=>{
-        console.log(bg);
+
         window.addEventListener('scroll',()=>{
             return window.scrollY>50?setBg(true):setBg(false);
         },[]);

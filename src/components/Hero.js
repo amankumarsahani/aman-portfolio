@@ -1,11 +1,12 @@
 import React from "react";
 import mineImage from "../assets/img/banner-woman2.webp";
+import selfImage from "../assets/img/banner01.png"
 
 function Hero() {
   return (
     <div
-      id=""
-      className="lg:h-[85vh] flex items-center bg-primary lg:bg-cover lg:lg-center lg:bg-no-repeat py-32 lg:py-0 overflow-hidden"
+      id="home"
+      className="lg:h-[84vh] flex items-center bg-primary lg:bg-cover lg:lg-center lg:bg-no-repeat py-32 lg:py-0 overflow-hidden"
     >
       <div className="container mx-auto">
         <div className="flex items-center h-full pt-8">
@@ -20,10 +21,15 @@ function Hero() {
               Lorem32Lorem32Lorem32Lorem32Lorem32Lorem32Lorem3
               2Lorem32Lorem32Lorem32Lorem32Lorem32
             </p>
-            <button className="btn btn-md bg-accent hover:bg-accent-hover md-btn-lg transition-all">Work with Me</button>
+            <div className="flex flex-com">
+              <button className="btn btn-md bg-accent hover:bg-accent-hover md-btn-lg transition-all mr-3">Work with Me</button>
+            <button className="btn btn-md bg-accent hover:bg-accent-hover md-btn-lg transition-all">Download CV</button>
+
+            </div>
+            
           </div>
           <div className="hidden lg:flex flex-1 justify-end items-end h-full">
-            <img src={mineImage} alt={mineImage} />
+            <img src={selfImage} alt={selfImage} height={'80vh'}/>
           </div>
         </div>
       </div>

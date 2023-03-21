@@ -1,9 +1,9 @@
 import React from "react";
-import Image from "../assets/img/about.webp";
-
+// import Image from "../assets/img/about.webp";
+import Image from "../assets/img/banner-mine.jpeg"
 function About() {
   return (
-    <section className="section bg-secondary">
+    <section id="about" className="section bg-secondary">
       <div className="container mx-auto">
         <div className="flex flex-col xl:flex-row gap-24">
           <img

@@ -3,29 +3,37 @@ import {
   FiYoutube,
   FiInstagram,
   FiGithub,
-  FiDribbble,
   FiLayout,
   FiSettings,
   FiPenTool,
-  FiTag,
   FiMail,
   FiMapPin,
+  FiPhoneCall,
+  FiLinkedin,
+  FiBookmark,
 } from 'react-icons/fi';
 
 // companies icons
 import FreelancerBrandIcon from './assets/img/brands/freelancer.png';
 import UpworkBrandIcon from './assets/img/brands/upwork.png';
-import FiverBrandIcon from './assets/img/brands/fiverr.png';
+import Qspider from './assets/img/brands/qspider.png';
 import BehanceBrandIcon from './assets/img/brands/behance.png';
 import DribbbleBrandIcon from './assets/img/brands/dribbble.png';
+import AwadhIcon from './assets/img/brands/awadh.png';
 
 // projects images
-import Project1 from './assets/img/projects/p1.webp';
+// import Project1 from './assets/img/projects/p1.png';
+// import Project1 from './assets/img/projects/newz.PNG'
 import Project2 from './assets/img/projects/p2.webp';
-import Project3 from './assets/img/projects/p3.webp';
-import Project4 from './assets/img/projects/p4.webp';
+import Project1 from './assets/img/projects/p3.webp';
+// import Project4 from './assets/img/projects/p4.webp';
 import Project5 from './assets/img/projects/p5.webp';
-import Project6 from './assets/img/projects/p6.webp';
+import Ekaksha from './assets/img/projects/ekaksha.png';
+import Newz from './assets/img/projects/newz.PNG';
+import School from './assets/img/projects/schoolSite.png';
+import Expense from './assets/img/projects/exp.png';
+
+
 
 // skills images
 import SkillImg1 from './assets/img/skills/html5.png';
@@ -78,15 +86,15 @@ export const social = [
   },
   {
     icon: <FiInstagram />,
-    href: '',
+    href: 'https://instagram.com/amankumar.sahani?igshid=ZDdkNTZiNTM=',
   },
   {
     icon: <FiGithub />,
-    href: '',
+    href: 'https://github.com/amankumarsahani',
   },
   {
-    icon: <FiDribbble />,
-    href: '',
+    icon: <FiLinkedin />,
+    href: 'https://www.linkedin.com/in/aman-kumar-sahani-26928320b/',
   },
 ];
 
@@ -101,8 +109,8 @@ export const brands = [
     href: '',
   },
   {
-    img: FiverBrandIcon,
-    href: '',
+    img: AwadhIcon,
+    href: 'https://ihub-awadh.in/',
   },
   {
     img: BehanceBrandIcon,
@@ -112,6 +120,7 @@ export const brands = [
     img: DribbbleBrandIcon,
     href: '',
   },
+  
 ];
 
 // projects
@@ -119,39 +128,59 @@ export const projectsData = [
   {
     id: '1',
     image: Project1,
-    name: 'project name 1',
-    category: 'UI/UX design',
+    name: 'Store Manager',
+    category: 'CRM',
   },
   {
     id: '2',
     image: Project2,
-    name: 'project name 2',
+    name: 'IOT Lab',
     category: 'web development',
   },
   {
     id: '3',
-    image: Project3,
-    name: 'project name 3',
-    category: 'UI/UX design',
+    image: School,
+    name: 'Parbhawati Vidyapeth',
+    category: 'Web Development',
   },
   {
     id: '4',
-    image: Project4,
-    name: 'project name 4',
-    category: 'mobile app',
+    image: Newz,
+    name: 'Newz 24x7',
+    category: 'web development',
   },
   {
     id: '5',
-    image: Project5,
-    name: 'project name 5',
+    image: Expense,
+    name: 'Expense Tracker',
     category: 'web development',
   },
   {
     id: '6',
-    image: Project6,
-    name: 'project name 6',
+    image: Project5,
+    name: 'E-Learning Website',
     category: 'web development',
   },
+  {
+    id: '7',
+    image: Ekaksha,
+    name: 'Ekaksha',
+    category: 'Cross-Platform App',
+  },
+  {
+    id: '8',
+    image: Project5,
+    name: 'BMI Calculator',
+    category: 'Mobile App',
+  },
+  
+  {
+    id: '9',
+    image: Project1,
+    name: 'TODO App',
+    category: 'Mobile App',
+  },
+  
 ];
 
 // projects
@@ -160,13 +189,16 @@ export const projectsNav = [
     name: 'all',
   },
   {
-    name: 'UI/UX Design',
+    name: 'CRM',
   },
   {
     name: 'web development',
   },
   {
     name: 'Mobile App',
+  },
+  {
+    name: 'Cross-Platform App',
   },
 ];
 
@@ -214,13 +246,13 @@ export const services = [
   },
   {
     icon: <FiPenTool />,
-    name: 'Branding',
+    name: 'Cross-Platform Application Development',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
   },
   {
-    icon: <FiTag />,
-    name: 'SEO',
+    icon: <FiBookmark/>,
+    name: 'Social Media Marketing',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
   },
@@ -232,22 +264,36 @@ export const testimonials = [
     authorImg: TestiImage1,
     authorText:
       'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design, Google',
+    authorName: 'Anu Kumar (Co-Founder of FinDev)',
+    authorPosition: 'Software Developer',
   },
   {
     authorImg: TestiImage2,
     authorText:
       'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design, Google',
+    authorName: 'Ajeet Yadav (Co-Founder of FinDev)',
+    authorPosition: 'Software Tester',
   },
   {
     authorImg: TestiImage3,
     authorText:
       'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design, Google',
+    authorName: 'Anand Shukla (Co-Founder of FinDev)',
+    authorPosition: 'Software Developer',
+  },
+  {
+    authorImg: TestiImage2,
+    authorText:
+      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
+    authorName: 'Sidharth Mudgil (Co-Founder of Ekaksha)',
+    authorPosition: 'Android Developer',
+  },
+  {
+    authorImg: TestiImage3,
+    authorText:
+      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
+    authorName: 'Manthan Sharma (Co-Founder of Ekaksha)',
+    authorPosition: 'Software Developer',
   },
 ];
 
@@ -257,12 +303,18 @@ export const contact = [
     icon: <FiMail />,
     title: 'Have a question?',
     subtitle: 'I am here to help you.',
-    description: 'Email me at hello@youremail.com',
+    description: 'Email me at amankumar.sahani096@gmail.com',
+  },
+  {
+    icon: <FiPhoneCall />,
+    title: 'Contact at',
+    subtitle: '+91-769-630-9551',
+    description: 'Available-24x7',
   },
   {
     icon: <FiMapPin />,
     title: 'Current Location',
-    subtitle: 'Bucharest, Romania',
+    subtitle: 'Punjab, India',
     description: 'Serving clients worldwide',
   },
 ];
