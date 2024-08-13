@@ -1,5 +1,4 @@
 import React from "react";
-import mineImage from "../assets/img/banner-woman2.webp";
 import selfImage from "../assets/img/banner01.png"
 
 function Hero() {
@@ -17,10 +16,9 @@ function Hero() {
             <h1 className="text-4xl leading-[44px] md:text-5xl md:leading-tight lg:text-7xl lg:leading-[1.2] font-bold md:tracking-[-2px]">
               I Build & Design <br /> Web Interfaces.
             </h1>
-            <p className="pt-4 pb-8 md:pt-6 md:pb-12 max-w-[480px] text-lg text-center lg:text-left">
-              Lorem32Lorem32Lorem32Lorem32Lorem32Lorem32Lorem3
-              2Lorem32Lorem32Lorem32Lorem32Lorem32
-            </p>
+            <p className="pt-4 pb-8 md:pt-6 md:pb-12 max-w-[480px] text-lg text-center lg:text-left "><i>
+            "As a full-stack developer, my canvas is the digital world, and my code paints the portrait of seamless and impactful user journeys."
+            </i></p>
             <div className="flex flex-com">
               <button className="btn btn-md bg-accent hover:bg-accent-hover md-btn-lg transition-all mr-3">Work with Me</button>
             <button className="btn btn-md bg-accent hover:bg-accent-hover md-btn-lg transition-all">Download CV</button>

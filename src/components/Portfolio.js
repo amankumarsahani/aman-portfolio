@@ -9,7 +9,7 @@ function Portfolio() {
             <h2 className='section-title before:content:portfolio relative before:absolute before:opacity-40 before:-top-[2rem] before:-left-3/4 before:hidden before:lg:block'>
                 My Latest Work
             </h2>
-            <p className='subtitle'>Lorem32Lorem32Lorem32Lorem32Lorem32Lorem32Lorem3</p>
+            <p className='mx-3'>As a full-stack web developer, I take pride in crafting innovative solutions. Here's a glimpse of my recent projects, showcasing my technical skills and passion for creating seamless digital experiences. Each project reflects my commitment to excellence and user-centric design. Explore my latest work below:</p>
         <Projects/>
         </div>
     </div>

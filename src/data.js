@@ -24,10 +24,9 @@ import AwadhIcon from './assets/img/brands/awadh.png';
 // projects images
 // import Project1 from './assets/img/projects/p1.png';
 // import Project1 from './assets/img/projects/newz.PNG'
-import Project2 from './assets/img/projects/p2.webp';
-import Project1 from './assets/img/projects/p3.webp';
-// import Project4 from './assets/img/projects/p4.webp';
-import Project5 from './assets/img/projects/p5.webp';
+import Project2 from './assets/img/projects/404.avif';
+import Project1 from './assets/img/projects/404.avif';
+import Project5 from './assets/img/projects/404.avif';
 import Ekaksha from './assets/img/projects/ekaksha.png';
 import Newz from './assets/img/projects/newz.PNG';
 import School from './assets/img/projects/schoolSite.png';
