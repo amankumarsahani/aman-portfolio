@@ -308,7 +308,7 @@ export const contact = [
     icon: <FiPhoneCall />,
     title: 'Contact at',
     subtitle: '+91-769-630-9551',
-    description: 'Available-24x7',
+    description: 'Available: 09:00 AM to 03:00 AM (IST)',
   },
   {
     icon: <FiMapPin />,
