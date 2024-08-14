@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { navigation, social } from "../data";
+import { navigation } from "../data";
 // import {XMarkIcon} from 'heroicons/react/outline'
 import { MenuAlt3Outline, XOutline } from "heroicons-react";
 import Link from "react-scroll/modules/components/Link";

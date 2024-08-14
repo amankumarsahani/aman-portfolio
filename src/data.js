@@ -17,7 +17,7 @@ import {
 import FreelancerBrandIcon from './assets/img/brands/freelancer.png';
 import UpworkBrandIcon from './assets/img/brands/upwork.png';
 import Qspider from './assets/img/brands/qspider.png';
-import BehanceBrandIcon from './assets/img/brands/behance.png';
+// import BehanceBrandIcon from './assets/img/brands/behance.png';
 import DribbbleBrandIcon from './assets/img/brands/dribbble.png';
 import AwadhIcon from './assets/img/brands/awadh.png';
 
@@ -112,7 +112,7 @@ export const brands = [
     href: 'https://ihub-awadh.in/',
   },
   {
-    img: BehanceBrandIcon,
+    img: Qspider,
     href: '',
   },
   {

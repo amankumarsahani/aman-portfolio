@@ -1,5 +1,5 @@
 import React from "react";
-import Link from "react-scroll/modules/components/Link";
+// import Link from "react-scroll/modules/components/Link";
 import { social } from "../data";
 
 function Social() {
